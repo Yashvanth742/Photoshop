@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #fdfbf7;
+    color: #1a1a1a;
+  }
+
+  h1, h2, h3, h4, .font-serif, .serif {
+    font-family: 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
+  }
+}
+
+/* Custom scrollbar matching warm ivory & brass palette */
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #fdfbf7;
+}
+::-webkit-scrollbar-thumb {
+  background: #dcd7cb;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b5965e;
+}
+
+/* Theme Utilities */
+.gold-glow {
+  box-shadow: 0 0 25px -5px rgba(181, 150, 94, 0.3);
+}
+
+.brass-border {
+  border-color: #b5965e;
+}
+

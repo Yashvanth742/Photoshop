@@ -1,0 +1,6 @@
+{
+  "name": "FrameCraft Photo Studio",
+  "description": "Premium photography, Photoshop editing, photo restoration, passport photos, and lifelong photo vault archive.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
